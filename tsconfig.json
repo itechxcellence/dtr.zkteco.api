@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "node16",
+      "moduleResolution": "node16",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "strict": true,
+      
+      "rootDir": ".",
+      "outDir": "dist",
+  
+      "typeRoots": ["types", "node_modules/@types"],
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./index.ts",
+      "./**/*.ts",
+      "./types/**/*.d.ts"
+    ]
+  }
+  
